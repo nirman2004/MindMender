@@ -1,0 +1,83 @@
+body{
+    overflow: hidden;
+}
+.main {
+  justify-content: center;
+  align-items: center;
+   width: 1560px;
+  background-image: url('../assets/peace.png');
+  background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+height: 100vh;
+  
+}
+.Login{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+
+}
+
+.container{
+border: black;
+border: 2px;   
+height: 400px;
+width:500px;
+background-color: #0000004d; 
+box-shadow: 10px 10px 10px rgba(2, 0, 0, 0.8);
+}
+form{
+    margin-top: 100px;
+  display: flex;
+   flex-direction: column;
+ width: 70%;
+ 
+ margin-left: 50px; 
+}
+.head{
+   height: 40px;
+    font-size: 30px;
+   display: flex;
+   margin-left: 200px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.password{
+    margin-top: 20px;
+}
+input[type="email"], input[type="password"], [type="text"]{
+   width: 100%;
+   border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+  color: white;
+  height: 25px;
+  font-weight: 500;
+}
+label{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.btn-login{
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    border-radius: 25px;
+    background: rgb(166, 228, 130);
+    border: 2px solid black;
+    font-size: 18px;
+}
+.btn-login:hover{
+   background: rgba(236, 243, 117, 0.3);
+    cursor: pointer;
+}
+.register{
+    color: white;
+    transition: 0.3s;
+}
